@@ -1,7 +1,6 @@
 # Parse_MTL.py
 ##### Version 1.1.3
 
-
 ## Usage
 1. Open Cinema 4D. 
 2. Go to "Script -> User Scripts -> Script Folder..."
@@ -9,7 +8,6 @@
 4. You will probably need to restart C4D, but afterwards, goto "Script -> User Scripts -> Import .mtl file..."
 5. Select the mtl file you wish to import.
 6. The script will import the materials from the file.
-
 
 ## Credits
 (Written by _mredig_ [https://github.com/mredig])
@@ -24,6 +22,11 @@ www.c4d-jack.de is not available anymore, but the script can now also be found a
 Parse_MTL.py is published under GPL 3.0.
 
 
-### ToDos
-
+## ToDos
 I'd like to add a toggle to change between absolute paths and relative paths.
+
+## Links
+Some links that could come in handy when extending/improving the script:
+* http://paulbourke.net/dataformats/mtl/
+* http://www.fileformat.info/format/material/
+* http://forums.cgsociety.org/showthread.php?p=7607553#post7607553
