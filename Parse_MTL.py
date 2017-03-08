@@ -7,8 +7,6 @@ Description-DE:Starten Sie dieses Skript nach dem Import einer OBJ-Datei. Es wir
 
 ImportMTL 1.1.3
 ===============
-2013 by www.c4d-jack.de
-
 
 Description
 -----------
@@ -19,15 +17,16 @@ parameters as described in the Wikipedia article "Wavefront .obj file".
 Disclaimer
 ----------
 This script is provided as is, no guarantee or warranty whatsoever. Use on your own risk.
+This script is published under GPL 3.0.
 
 
 Known bugs / problems
 ---------------------
-Some of the information in the Wiki article is contradictory. E.g. it is stated that "d" and "Tr" both stand for "Transparency".
-Some OBJ files, however, contain both keys with different values.
+* Some of the information in the Wiki article is contradictory. E.g. it is stated that "d" and "Tr" both stand for "Transparency". Some OBJ files, however, contain both keys with different values.
 
-The "illumination models" as mentioned in the Wiki article are ignored. Maybe I didn't get it, but they seemed not to
-make a lot of sense.
+* The "illumination models" as mentioned in the Wiki article are ignored. Maybe I didn't get it, but they seemed not to make a lot of sense.
+
+* Filenames with whitespaces are parsed incorrectly. This is because whitespaces are considered a separator. Line #243 must be changed/extended to separate the input string only at the first whitespace.
 
 
 Changelog
